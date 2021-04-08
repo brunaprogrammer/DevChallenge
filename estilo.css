@@ -13,7 +13,6 @@ header{
     padding-right: 150px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 h1{
@@ -34,7 +33,6 @@ li{
 main{
     margin: 80px;
     display: flex;
-    
 }
 
 .bloco-um{
@@ -86,11 +84,7 @@ img{
     margin-left: -135px;
     padding-top: 20px;
 }
-
-@media (max-width:1559px) {
-    
-    
-}
+   
 
 @media (max-width:760px){
     body{
@@ -122,7 +116,6 @@ img{
     li{
         display: none;
     }
-    
   
     .bloco-um{
         display: flex;
