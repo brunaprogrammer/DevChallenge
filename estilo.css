@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px 300px 100px 300px;
+}
+
+header{
+    padding: 24px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1{
+    color:#D2872C;
+    font-family: sans-serif;
+    font-size: 36px; 
+    padding: 10px; 
+}
+
+li{
+    font-style: none;
+    font-family: sans-serif;
+    font-size: 28px;
+    display: inline-flex;
+    padding: 10px;   
+}
+
+main{
+    margin: 80px;
+    display: flex;
+    
+}
+
+.bloco-um{
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #766F68;
+    display: flex;
+    align-self: start;
+}
+
+.paragrafo{
+    padding: 30px 0;
+    font-family: sans-serif;
+    color: #766F68;
+    font-size: 32px;
+    display: flex;
+}
+
+.botao{
+    padding-top: 30px;
+}
+
+button{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #D2872C;
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+}
+
+.bloco-dois{
+    padding-top: -5px;
+    width: 35%;
+}
+
+img{
+    width: 777px;
+    margin-left: -135px;
+    padding-top: 20px;
+}
+
+@media (max-width:1559px) {
+    
+    
+}
+
+@media (max-width:760px){
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+    }
+
+    header{
+        padding: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    h1{
+        color:#D2872C;
+        font-family: sans-serif;
+        font-size: 30px; 
+        padding: 10px; 
+    }
+    
+    li{
+        display: none;
+    }
+    
+  
+    .bloco-um{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    h2{
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        color: #766F68;
+        display: flex;
+        text-align: center;
+    }
+    
+    .paragrafo{
+        padding: 30px 0;
+        font-family: sans-serif;
+        color: #766F68;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .botao{
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    button{
+        font-family: sans-serif;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #D2872C;
+        width: 260px;
+        height: 65px;
+        border-radius: 15px;
+        border: none;
+    }
+
+    img{
+        width: 300px;
+        margin-left: 0;
+        padding-top: 0;
+    }
+}
+
+
